@@ -1,4 +1,4 @@
-https://youtu.be/uobuNUIHa2o
+//https://youtu.be/uobuNUIHa2o
 let textos = [];
 let imagenes = []; 
 let sonidos = [];
@@ -197,3 +197,4 @@ function reproducirClick(i) {
     sonidos[i].play();
   }
 }
+
