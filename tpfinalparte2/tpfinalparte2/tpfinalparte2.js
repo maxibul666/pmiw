@@ -22,7 +22,7 @@ for (let i = 1; i <= 4; i++) {
 
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(640, 480);
   juego = new GameManager();
 }
 
@@ -38,4 +38,5 @@ function keyPressed() {
 function keyReleased() {
   juego.keyReleased();
 }
+
 
